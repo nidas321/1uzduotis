@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: rgb(240, 240, 240);
+}
+
+.Library-card-wrapper1 {
+  width: 20rem;
+  height: 20rem;
+  background-color: blue;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.7rem;
+  color: white;
+  margin-top: 1rem;
+}
+.Library-card-wrapper2 {
+  width: 20rem;
+  height: 20rem;
+  background-color: black;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.7rem;
+  color: white;
+  margin-top: 1rem;
+}
+
+.bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Corporate-h1 {
+  margin-top: 10rem;
+}
+
+.publication-library {
+  margin-left: 1rem;
+  margin-top: 4rem;
+  width: 2rem;
+}
+.Loadmore-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+  height: 3rem;
+  background-color: blue;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  color: white;
+  padding-right: 1rem;
+}
+.construction-image {
+  width: 20rem;
+  height: 20rem;
+}
+
+.card-wrapper {
+  width: 21rem;
+  height: 21rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  background-color: rgb(225, 225, 225);
+  padding-top: 1rem;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: white;
+}
+.navbar-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: last baseline;
+  font-size: 50px;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.fa-solid {
+  cursor: pointer;
+}
