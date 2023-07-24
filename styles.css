@@ -1,26 +1,106 @@
+@media (min-width: 768px) {
+  .navbar-bottom {
+    display: flex;
+    gap: 7rem;
+  }
+  .inthenews {
+    font-size: 6.5rem;
+    width: 60%;
+  }
+  .newsandupdates {
+    width: 20%;
+  }
+
+  .arrow {
+    width: 20%;
+  }
+
+  .cards-onlywrapper1 {
+    display: flex;
+    gap: 1rem;
+  }
+  .cards-onlywrapper2 {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .card-wrapper {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .lastcardwrapper {
+    display: none;
+  }
+  .newsandupdates {
+    display: none;
+    justify-content: top;
+  }
+  .globewrap {
+    display: none;
+  }
+  li {
+    display: none;
+  }
+  .nav-list {
+    display: none;
+  }
+}
+
+.newsandupdates {
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  color: gray;
+}
+
+.globe-bars {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 1.2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 1.3rem;
+  color: gray;
+}
+
 body {
   margin: 0;
   background-color: rgb(240, 240, 240);
 }
 
+.footerwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .Library-card-wrapper1 {
-  width: 20rem;
+  width: 22rem;
   height: 20rem;
   background-color: blue;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-left: 0rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-top: 0.7rem;
   color: white;
   margin-top: 1rem;
 }
 .Library-card-wrapper2 {
-  width: 20rem;
+  width: 22rem;
   height: 20rem;
   background-color: black;
-  margin-left: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  margin-left: 0rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-top: 0.7rem;
   color: white;
   margin-top: 1rem;
@@ -37,7 +117,7 @@ body {
 }
 
 .publication-library {
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-top: 4rem;
   width: 2rem;
 }
@@ -45,12 +125,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 20rem;
+  width: 22rem;
   height: 3rem;
   background-color: blue;
   margin-top: 1rem;
-  margin-left: 1rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   color: white;
   padding-right: 1rem;
 }
@@ -60,18 +139,37 @@ body {
 }
 
 .card-wrapper {
-  width: 21rem;
+  width: 400px;
   height: 21rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   background-color: rgb(225, 225, 225);
   padding-top: 1rem;
-  margin-left: 1rem;
-  padding-left: 1rem;
   margin-top: 1rem;
 }
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.card-wrapper p {
+  margin-top: 0;
+}
+.cardcontent {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2.2rem;
+}
+
+.allcardwrappers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .navbar-top {
   display: flex;
   justify-content: space-between;
